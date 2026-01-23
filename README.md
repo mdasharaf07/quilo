@@ -1,51 +1,111 @@
-# 🧠 Quilo – The Quiz Website
-Quilo is a sleek, responsive quiz web application that lets users test their knowledge through multiple-choice quizzes. Built using HTML, CSS, and JavaScript, this project focuses on delivering an interactive user experience with real-time feedback and score tracking.
+# Quilo – Quiz Web Application
 
-# 📸 Dashboard Preview
-![Sales Dashboard Preview](https://i.postimg.cc/L5TQ4XX1/Screenshot-2025-05-01-202726.jpg)
+Quilo is a lightweight and responsive quiz web application that allows users to test their knowledge through multiple-choice questions. The project is built using core web technologies and focuses on interactivity, real-time feedback, and a clean user experience.
 
-# 🎯 Features
-✅ Multiple-choice quiz interface
+This repository serves as a frontend-focused project demonstrating DOM manipulation, event handling, and basic application state management using JavaScript.
 
-🕐 Real-time score tracking
+---
 
-⏱️ Timer-based questions (optional)
+## Project Overview
 
-🔄 Instant feedback on answer selection
+Quilo provides a simple quiz-taking experience where users can answer multiple-choice questions, receive instant feedback, and track their score in real time. The application is designed to be minimal, fast, and easily extendable with additional features such as dynamic data loading or backend integration.
 
-📱 Fully responsive UI for mobile and desktop
+The project runs entirely in the browser without any external dependencies.
 
-💾 Option to expand with dynamic quiz data or backend support
+---
 
-# 🛠️ Technologies Used
-HTML5
+## Features
 
-CSS3
+- Multiple-choice quiz interface
+- Real-time score tracking
+- Instant feedback on answer selection
+- Optional timer-based quiz logic
+- Responsive design for mobile and desktop
+- Audio support for enhanced user interaction
 
-JavaScript (DOM manipulation)
+---
 
-# 📁 Project Structure
+## Dashboard Preview
 
-├── index.html           
-├── style.css            
-├── script.js            
-├── assets/
+<p align="center">
+  <img src="https://i.postimg.cc/L5TQ4XX1/Screenshot-2025-05-01-202726.jpg" alt="Quilo Quiz Application Preview" width="900">
+</p>
 
-# 🚀 How to Run Locally
-Clone the repository:
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (DOM manipulation and event handling)
+
+---
+
+## Repository Structure
+
+```
+quilo/
+├── index.html # Main HTML structure
+├── style.css # Styling and layout
+├── script.js # Quiz logic and interactivity
+├── countdown.mp3 # Audio asset
+└── README.md # Project documentation
+```
+
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Edge, or similar)
+
+### Installation
+
+1. Clone the repository:
+```
 git clone https://github.com/mdasharaf07/quilo.git
-Open index.html in your browser.
+```
 
-Start the quiz and test your knowledge!
+2. Navigate to the project directory.
 
-# 🧩 Future Enhancements
-Dynamic question loading via JSON or API
+---
 
-User login and progress tracking
+## Usage
 
-Leaderboard for high scores
+Open the `index.html` file in a web browser to start the quiz.
 
-Admin panel to add/edit questions
+No build tools or external libraries are required.
 
-# 🧑‍💻 Author
-Mohamed Asharaf
+---
+
+## Intended Use
+
+- Practice project for JavaScript and DOM manipulation
+- Demonstration of interactive UI development
+- Educational quiz application prototype
+- Frontend portfolio project
+
+---
+
+## Limitations
+
+- Uses static quiz questions defined in JavaScript
+- No persistent storage for scores or progress
+- No user authentication or backend integration
+
+---
+
+## Future Enhancements
+
+- Dynamic question loading using JSON or APIs
+- User authentication and progress tracking
+- Leaderboard and high-score tracking
+- Admin interface to add or edit quiz questions
+
+---
+
+## Author
+
+Maintained by Mohamed Asharaf.
